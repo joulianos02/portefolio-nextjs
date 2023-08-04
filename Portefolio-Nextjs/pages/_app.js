@@ -4,6 +4,7 @@ import { useRouter } from 'next/router'
 import Headermain from "../components/header";
 import Socialicons from "../components/socialicons";
 import "../styles/App.css";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   const { pathname } = useRouter();
