@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { useRouter } from 'next/router'
 import AnimatedCursor from "../hooks/AnimatedCursor";
 import Headermain from "../components/header";
+import Socialicons from "../components/socialicons";
 import "../styles/App.css";
 
 function MyApp({ Component, pageProps }) {
@@ -26,6 +27,7 @@ function MyApp({ Component, pageProps }) {
       </div>
       <Headermain />
       <Component {...pageProps} />
+      <Socialicons />
     </div>
   );
 }
