@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { useRouter } from 'next/router'
 import Headermain from "../components/header";
 import Socialicons from "../components/socialicons";
-import "../styles/App.css";
+import "../styles/App.module.css";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
